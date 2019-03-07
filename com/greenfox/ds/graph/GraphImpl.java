@@ -3,6 +3,7 @@ package com.greenfox.ds.graph;
 import java.util.List;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Stack;
 import java.util.ArrayList;
 
@@ -40,7 +41,7 @@ public class GraphImpl implements Graph {
   }
 
   public HashSet<String> getVerticesByDepthFirst(String root) {
-    HashSet<String> visited = new HashSet<String>();
+    HashSet<String> visited = new LinkedHashSet<String>();
     Stack<String> stack = new Stack<String>();
 
     stack.push(root);

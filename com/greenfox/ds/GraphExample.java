@@ -8,7 +8,7 @@ public class GraphExample {
   private Graph graph;
 
   /*
-   * Here I use dependency injection, so my example class could work with any
+   * I use dependency injection here, so my example class could work with any
    * implementation of the Graph interface.
    * 
    */
